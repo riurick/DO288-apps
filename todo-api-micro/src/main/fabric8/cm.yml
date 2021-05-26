@@ -1,0 +1,10 @@
+piVersion: v1
+kind: ConfigMap
+metada:
+        name: db-config
+data:
+        DATABASE_USER: todoapp
+        DATABASE_PASSWORD: redhat123
+        DATABASE_SVC_HOSTNAME: rododb
+        DATABASE_NAME: todo
+
